@@ -1,5 +1,5 @@
 ## Task 1: Java Application Development
--Pet Appointments Application
+-Pet Salon Appointment Scheduler Application
 
 ### Author Information
 author: Timothy Johnson
@@ -10,7 +10,7 @@ version: 1.0
 Allows the user to create, edit, and delete scheduled pet appointments and pet records for their pet grooming shop.
 
 ### How to use the pet scheduling application
-Use your username and password to fill out the login form to gain entry into the application. You can then create a new appointment or edit existing ones. Users are given the choice to delete old appointments or set the status to 0. You then can add new pets into the database from the pet records tab. Here you can edit or delete existing pets. In the reports tab, you will be able to generate three reports by clicking on each tab. This will show you detailed information about the pets, groomers, and sales in the last year.
+Use your username and password to fill out the login form to gain entry into the application. You can then create a new appointment or edit existing ones. Users are given the choice to delete old appointments or set the status to 0. You can then add new pets to the database from the pet records tab. Here you can edit or delete existing pets. In the reports tab, you will be able to generate three reports by clicking on each tab. This will show you detailed information about the pets, groomers, and sales in the last year.
 
 ### Reports
 Amount of appointments by service type for the year.
