@@ -28,11 +28,11 @@ Users can securely log in, schedule or edit appointments, manage pet records, an
 
 🔄 User Workflow
 
-    Login using your username and password
+    Log in using your username and password
 
     Manage Appointments: Create, update, or remove appointments
 
-    Manage Pet Records: Add new pets, or modify existing entries
+    Manage Pet Records: Add new pets or modify existing entries
 
     View Reports: Navigate to the Reports tab and generate yearly summaries
 
