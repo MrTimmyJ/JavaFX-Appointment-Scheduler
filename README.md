@@ -1,5 +1,5 @@
 # Pet Salon Appointment Scheduler
-Allows the user to create, edit, and delete scheduled pet appointments and pet records for their pet grooming shop.
+Allows users to create, edit, and delete scheduled pet appointments and pet records for their pet grooming salon.
 
 Author: Timothy Johnson <br>
 Date: December 2022 to January 2023
