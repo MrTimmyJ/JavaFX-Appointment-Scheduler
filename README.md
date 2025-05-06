@@ -74,6 +74,9 @@ Reports are tab-separated and pull data directly from the connected SQL database
 
 🖼️ Screenshots / Visuals
 
+![sabanner](https://github.com/user-attachments/assets/8c4f47fc-2890-4ff6-9979-31c3c86b0c0f)
+
+
 🧰 Technologies Used
 
     ☕ Java 17.0.4.1
