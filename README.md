@@ -36,7 +36,7 @@ Users can securely log in, schedule or edit appointments, manage pet records, an
 
     View Reports: Navigate to the Reports tab and generate yearly summaries
 
-    Data Persistence: All changes are saved to a connected MySQL or PostgreSQL database
+    Data Persistence: All changes are saved to a connected MySQL database
 
 
 📁 Code Structure
