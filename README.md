@@ -42,16 +42,45 @@ Users can securely log in, schedule or edit appointments, manage pet records, an
 📁 Code Structure
 
 . <br>
-├── PetAppointments/ <br>
-│   ├── Main.java &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; Launches the app and connects to the database <br>
-│   ├── JDBC.java &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; DB connection logic <br>
-│   ├── README.md &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; <br>
-│   ├── dataLayout/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data models <br>
-│   ├── databaseAccess/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DB queries and DAO logic <br>
-│   │   └── PetTypeAccess.java &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; Example: Loads pet types from the DB <br>
-│   ├── forms/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FXML UI files <br>
-│   │   └── loginPage.fxml &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; Login screen UI layout <br>
-│   ├── lang/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Language Data <br>
+src/PetAppointments/ <br>
+├── Main.java &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; Launches the app and connects to the database <br>
+├── JDBC.java &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; DB connection logic <br>
+
+├── dataLayout/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data models <br>
+│   ├── Address.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Address model <br>
+│   ├── Appointment.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Appointment model <br>
+│   ├── City.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; City model <br>
+│   ├── Country.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Country model <br>
+│   ├── Groomer.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Groomer model <br>
+│   ├── Pet.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pet model <br>
+│   ├── PetType.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pet type model <br>
+│   ├── ReportCities.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Report for appointments by city <br>
+│   ├── ReportSales.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Report for revenue/sales <br>
+│   ├── ReportType.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Report for appointments by type <br>
+│   └── ServiceType.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Service type model <br>
+
+├── databaseAccess/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DB queries and DAO logic <br>
+│   ├── AddressAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to address data <br>
+│   ├── AppointmentAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to appointment data <br>
+│   ├── CityAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to city data <br>
+│   ├── CountryAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to country data <br>
+│   ├── GroomerAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to groomer data <br>
+│   ├── PetAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to pet data <br>
+│   ├── PetTypeAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to pet type data <br>
+│   ├── ReportAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to reporting queries <br>
+│   └── ServiceTypeAccess.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to service type data <br>
+
+├── forms/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FXML UI files and controllers <br>
+│   ├── HomePage.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Controls home page behavior <br>
+│   ├── LoginPage.java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Controls login page behavior <br>
+│   ├── homePage.fxml &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home screen UI layout <br>
+│   └── loginPage.fxml &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login screen UI layout <br>
+
+├── lang/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Language data <br>
+│   ├── login.properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Default login text <br>
+│   ├── login_en.properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; English translation <br>
+│   └── login_es.properties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spanish translation <br>
+
 
 ⚙️ How It Works
 Main Application
