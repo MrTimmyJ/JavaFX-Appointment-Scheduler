@@ -6,10 +6,10 @@ Date: December 2022 to January 2023
 
 ## Overview
 
-A full-featured desktop application to manage appointments, clients, and pets for a pet grooming salon.
+&nbsp;&nbsp;&nbsp;&nbsp;A full-featured desktop application to manage appointments, clients, and pets for a pet grooming salon.
 Built with Java and JavaFX, it offers user authentication, database integration with MySQL/PostgreSQL, and generates detailed business reports.
 
-The Pet Salon Appointment Scheduler is a desktop JavaFX application designed for small pet grooming businesses.
+&nbsp;&nbsp;&nbsp;&nbsp;The Pet Salon Appointment Scheduler is a desktop JavaFX application designed for small pet grooming businesses.
 Users can securely log in, schedule or edit appointments, manage pet records, and generate detailed reports based on service type, groomer, or city.
 
 🧩 Features
@@ -142,7 +142,7 @@ Reports are tab-separated and pull data directly from the connected SQL database
 
     1. Clone the repository:
 
-      git clone https://github.com/yourusername/pet-salon-scheduler.git
+      git clone https://github.com/MrTimmyJ/pet-salon-scheduler.git
       cd pet-salon-scheduler
       
     2. Open the project in IntelliJ IDEA or another Java IDE
@@ -167,4 +167,4 @@ Reports are tab-separated and pull data directly from the connected SQL database
 
 🪪 License
 
-This project is open source and available under the [MIT License](https://opensource.org/license/mit).
+This open-source project is available under the [MIT License](https://opensource.org/license/mit).
